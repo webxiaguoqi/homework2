@@ -1,0 +1,30 @@
+.box{
+	width: 300px;
+}
+.box1{
+	margin-left: 60px;
+	
+}
+h3{
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	line-height: 35px;
+	background-image: linear-gradient( to bottom ,blue,white) ;	
+	text-indent: 1.5em;
+	
+}
+.p1{
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 1.5em;
+	color:#2828FF;
+	line-height: 35px;
+	background-image:linear-gradient(to bottom,#ADFEDC,white);
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}

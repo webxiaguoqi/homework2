@@ -1,0 +1,55 @@
+div{
+	width: 300px;
+}
+h3{
+	font-size: 16px;
+	text-indent: 1em;
+	line-height: 30px;
+	color: white;
+	background: #518700 url(../img/bang.gif) 120px 0 no-repeat;
+		
+	
+}
+ul li{
+	list-style-type: none;
+	line-height: 30px;
+	text-indent: 2em;
+	
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#p1{
+	background: url(../img/book_no01.gif)0 3px no-repeat ;
+}
+#p2{
+	background: url(../img/book_no02.gif)0 3px no-repeat;
+}
+#p3{
+	background: url(../img/book_no03.gif)0 3px no-repeat;
+}
+#p4{
+	background: url(../img/book_no04.gif)2px 8px no-repeat;
+}
+#p5{
+	background: url(../img/book_no05.gif)2px 8px no-repeat;
+}
+#p6{
+	background: url(../img/book_no06.gif)2px 8px no-repeat;
+}
+#p7{
+	background: url(../img/book_no05.gif)2px 8px no-repeat;
+}
+#p8{
+	background: url(../img/book_no06.gif)2px 8px no-repeat;
+}
+#p9{
+	background: url(../img/book_no07.gif)2px 8px no-repeat;
+}
+#p10{
+	background: url(../img/book_no09.gif)2px 8px no-repeat;
+}
