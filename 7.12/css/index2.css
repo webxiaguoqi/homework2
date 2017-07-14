@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 620px;
+	margin: 0 auto;
+}
+li{
+	list-style-type: none;
+}
+.fl{
+	float: left;
+}
+.rl{
+	float: right;
+}
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.box li{
+	float: left;
+	font-size: 12px;
+	margin-right: 30px;
+	margin-top: 30px;
+}

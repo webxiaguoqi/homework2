@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.box{
+	color: #666;
+	width: 320px;
+	margin: 0 auto;
+	font-size: 12px;
+	margin-top: 20px;
+}
+a{
+	color: #666;
+	text-decoration: none;
+	
+}
+li{
+	list-style-type: none;
+}
+.box h3{
+	font-size: 12px;
+	color: black;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 38px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	background: url(../img/1.gif) 15px 8px no-repeat;
+}
+.movie img{
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+.movie .txt h4{
+	color: black;
+	margin-top: 5px;
+}
+.movie .txt{
+	width: 180px;
+}
+.movie .txt p{
+	margin: 15px auto;
+}
+.box .more li{
+	height: 30px;
+	line-height: 30px;
+}
+.box .more li a{
+	float: left;
+}
+.box .more li span{
+	float: right;
+}

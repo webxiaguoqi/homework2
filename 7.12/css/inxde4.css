@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: ;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+.top{
+	width: 990px;
+	margin: 0 auto;
+}
+.top h3{
+	font-size: 22px;
+	font-weight: 400;
+	color: rgb(102,101,102);
+	height: 60px;
+	line-height: 60px;
+	margin-left: 15px;
+}
+.magin{
+	background: #e93854;
+	height: 475px;
+}
+.ctn{
+	width: 990px;
+	margin: 0 auto;
+	height: 475px;
+	overflow: hidden;
+	background: url(../img/banner.png)no-repeat center top;
+}
+.ctn .login{
+	float: right;
+	margin: 20px;
+	margin-right: 10px;
+	background: white;
+	padding: 20px 15px;
+	width: 300px;
+	}
+.login a{
+	color: #b6ldld;
+	font-size:14px;
+}
+.login a:hover{
+	color: orange;	
+}
+#p1{
+	margin-left: 142px;
+		
+}
+.login h3{
+	font-size: 20px;
+	color: #666;
+	font-weight: 400;
+}
+.login form>div{
+	margin-top: 20px;
+	
+}
+
+.txt1{
+	width: 250px;
+	height: 33px;
+	border: 1px solid #ccc;
+	padding-left: 10px;
+	outline: none;
+	
+	
+}
+.txticon1{
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url(../img/icon1.jpg);
+	border-right: none;
+}
+.txticon2{
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url(../img/icon2.jpg);
+}
+.check span{
+	font-size: 14px;
+	margin-left: 5px;
+	margin-top: -3px;
+}
+.sub{
+	width: 295px;
+	height: 38px;
+	background: #e4393c;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 18px;
+}
+.bot{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 12px;
+
+	
+	
+.link a{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.copy{
+	margin: 100px auto;
+}
+
+
