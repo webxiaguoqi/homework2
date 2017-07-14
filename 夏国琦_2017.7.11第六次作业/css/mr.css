@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 380px;
+}
+div h3{
+	color: white;
+	background-color: #E9185A;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 0.8em;
+}
+ ul li{
+ 	padding: 5px 10px;
+ 	list-style-type: none;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	border-bottom: 1px dashed #ccc;
+ }
+  li a{
+  	text-decoration: none;
+  }
+  li a:link{
+  	color: black;
+  }
+   li span{
+     margin-right: 5px;
+   	display: inline-block;
+   	width: 30px;
+   	height: 30px;
+   	background-color: #000000;
+   	color: white;
+   	border-radius: 50%;
+   	text-align: center;
+   	line-height: 30px;
+   }
+   li a:hover span{
+   	background-color:#E9185A ;
+   }
+   li a:hover{
+   	color: #E9185A ;
+   }
+  

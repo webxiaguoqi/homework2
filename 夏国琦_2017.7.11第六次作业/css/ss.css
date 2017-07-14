@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 210px;
+	margin: 0 50px;
+	border: 1px solid #AACBEE;
+	background-color: #F5F9FC;
+	padding-bottom: 10px;
+	
+	
+	
+}
+div h3{
+	font-size: 16px;
+	color: dodgerblue;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 1.5em;
+	background:url(../img/title_icon.gif) 3px 6px  no-repeat ;
+}
+ul li{
+	list-style-type: none;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 0.5em;
+	border-top: 1px solid #AACBEE;
+	background: url(../img/submenu.gif) 40px 3px no-repeat;
+	margin: 0 6px;
+}
