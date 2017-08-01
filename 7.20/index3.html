@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<div>
+		请输入年份：<input type="text" id="years"  onkeyup="nf()"/>
+		生肖：<input type="text" id="xs" />
+	</div>
+	<script>
+		function nf(){
+			var a = years.value;
+			if ((a-1899)%12==1)
+			{
+				xs.value="鼠"
+			}else if((a-1899)%12==2){
+				xs.value="牛";
+			}else if((a-1899)%12==3){
+				xs.value="虎";
+			}else if((a-1899)%12==4){
+				xs.value="兔";
+			}else if((a-1899)%12==5){
+				xs.value="龙";
+			}else if((a-1899)%12==6){
+				xs.value="蛇";
+			}else if((a-1899)%12==7){
+				xs.value="马";
+			}else if((a-1899)%12==8){
+				xs.value="羊";
+			}else if((a-1899)%12==9){
+				xs.value="猴";
+			}else if((a-1899)%12==10){
+				xs.value="鸡";
+			}else if((a-1899)%12==11){
+				xs.value="狗";
+			}else if((a-1899)%12==0){
+				xs.value="猪";
+			}
+			
+		}
+		
+	</script>
+	<body>
+	</body>
+</html>

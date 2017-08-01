@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var i = 1;
+			function xia(){
+				i= i+1;
+				if(i>5){
+				i = 1
+				};
+				pic.src = "img/"+i+".jpg" ;
+				
+			}	
+			function shang(){
+				i= i-1;
+				if(i<1){
+				i = 5};
+			
+				 pic.src = "img/"+i+".jpg" ;	 
+			}
+		</script>
+		<div id="">
+			<input type="button"  value="上一张" onclick="shang()"/>
+			<input type="button" value="下一张"  onclick="xia()"/>
+			
+			<hr />
+			<img  id="pic" src="img/1.jpg" width="300px"/>
+		</div>
+	</body>
+</html>

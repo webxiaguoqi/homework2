@@ -1,0 +1,36 @@
+<script>
+
+var i = 1;
+
+function xiaYiZhang(){
+i = i +1;
+
+if(i>5){
+i = 1;
+}
+
+pic.src = i+".jpg";
+
+}
+
+function shangYiZhang(){
+i = i - 1;
+
+if(i<1){
+i = 5;
+}
+
+pic.src = i+".jpg";
+
+
+
+}
+
+</script>
+
+
+<input type="button"value="下一张" onclick="xiaYiZhang()"/>
+<input type="button"value="上一张" onclick="shangYiZhang()"/>
+<hr />
+<img id="pic" src="1.jpg" width="300px"  />
+

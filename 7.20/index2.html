@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>	
+		
+			
+			
+		</script>
+	</head>
+	<body>
+	
+		<div class="box">
+			<input type="text"  id="month"  onkeyup="mon()" />
+			<span>月 </span>
+			<span> 共计</span>
+			<input type="text"  id="day"  />
+			<span>天</span>
+		</div>
+		<script>
+	 function mon(){
+			var a = month.value;
+			if(a==2){
+			day.value=28;
+		}else if(a==1||a==3||a==5||a==7||a==8||a==10||a==12){
+			day.value=31;
+		}else if(a==4||a==6||a==9||a==11){
+			day.value=30;
+		}
+	}	
+		</script>
+	</body>
+</html>
