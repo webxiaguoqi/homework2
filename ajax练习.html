@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script src="js/jquery-1.12.4.js"></script>
+	<style type="text/css">
+		*{
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			color: #fff;
+			width: 100px;
+			height: 40px;
+			border-radius: 4px;
+			background-color: #00b8f4;
+			display: block;
+			float: left;
+			text-align: center;
+			line-height: 40px;
+			text-decoration: none;
+		}
+		.warp{
+			margin-top: 50px;
+			width: 360px;
+			height:400px;
+			display: block;
+			float: left;
+			margin: 10px;
+			border: 1px solid #00B8F4;
+			border-radius: 4px;
+			overflow: hidden;
+		}
+		.warp img{
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+	<body>
+		
+		<a href="javascript:void(0)" id="hehe">获取数据</a>
+		<div class="dog">
+			
+		</div>
+		<script type="text/javascript">
+			//API网站的密钥
+			var key="c380a377624e8c7e0c8030ec9fac7243";
+			var num=9;
+			
+			$("#hehe").click(function(){
+				$.ajax({
+				url:"http://api.tianapi.com/meinv/",
+				data:{
+					//需要的密钥
+					key:key,num:num
+				},
+				//数据请求发送成功后返回的字符串
+				success:function(data){
+					data =data.newslist
+					console.log(data);
+					for(var i=data.length-1;i>=0;i--){
+					var d="<div class='"+"warp'><img src='"+data[i].picUrl +"'><div/>";
+					$(".dog").append(d)
+					}
+					
+					
+				}
+				
+				
+			})
+			});
+			
+		</script>
+		
+		
+		<!--c380a377624e8c7e0c8030ec9fac7243-->
+		<!--http://api.tianapi.com/meinv/?key=APIKEY&num=10-->
+	</body>
+</html>
